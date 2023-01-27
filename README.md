@@ -5,8 +5,8 @@ A step-by-step explaination and implementation of the forward-backward algorithm
 
 ## Plans for updating 
 
-A Brief Introduction to Large Multilingual Language Models - Intended for anyone that wants to start doing research in Multilingual NLP.
+A Brief Introduction to Large Multilingual Language Models - Intended for anyone that wants to start doing research in Multilingual NLP - Feb 1, 2023
 
-A Collection of tutorials of how to use the fairseq library - Intended for anyone that finds the official documentation of fairseq hard to follow
+A Collection of tutorials of how to use the fairseq library - Intended for anyone that finds the official documentation of fairseq hard to follow - March 1, 2023
 
 
