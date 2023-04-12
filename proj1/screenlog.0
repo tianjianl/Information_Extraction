@@ -1,0 +1,665 @@
+p[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hppython3 hmm.py[1m [0m[0m [?2004l
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+iteration 0 | train_likelihood -3.2970891082982936 | test_likelihood -3.2970568373817377
+iteration 1 | train_likelihood -2.85679404941579 | test_likelihood -2.8360197674264436
+iteration 2 | train_likelihood -2.8567940492751633 | test_likelihood -2.836019767298227
+iteration 3 | train_likelihood -2.8567940491315515 | test_likelihood -2.8360197671671594
+iteration 4 | train_likelihood -2.8567940489847445 | test_likelihood -2.836019767033012
+iteration 5 | train_likelihood -2.856794048834526 | test_likelihood -2.8360197668955758
+iteration 6 | train_likelihood -2.85679404868067 | test_likelihood -2.8360197667546343
+iteration 7 | train_likelihood -2.8567940485229433 | test_likelihood -2.8360197666099616
+iteration 8 | train_likelihood -2.856794048361101 | test_likelihood -2.8360197664613227
+iteration 9 | train_likelihood -2.8567940481948906 | test_likelihood -2.836019766308473
+iteration 10 | train_likelihood -2.856794048024046 | test_likelihood -2.836019766151158
+iteration 11 | train_likelihood -2.856794047848293 | test_likelihood -2.8360197659891107
+iteration 12 | train_likelihood -2.8567940476673446 | test_likelihood -2.836019765822054
+iteration 13 | train_likelihood -2.856794047480901 | test_likelihood -2.8360197656496986
+iteration 14 | train_likelihood -2.8567940472886484 | test_likelihood -2.836019765471742
+iteration 15 | train_likelihood -2.8567940470902626 | test_likelihood -2.8360197652878685
+iteration 16 | train_likelihood -2.856794046885403 | test_likelihood -2.8360197650977477
+iteration 17 | train_likelihood -2.856794046673713 | test_likelihood -2.8360197649010357
+iteration 18 | train_likelihood -2.856794046454822 | test_likelihood -2.836019764697372
+iteration 19 | train_likelihood -2.8567940462283405 | test_likelihood -2.8360197644863794
+iteration 20 | train_likelihood -2.8567940459938646 | test_likelihood -2.836019764267665
+iteration 21 | train_likelihood -2.856794045750968 | test_likelihood -2.836019764040816
+iteration 22 | train_likelihood -2.8567940454992082 | test_likelihood -2.8360197638054006
+iteration 23 | train_likelihood -2.85679404523812 | test_likelihood -2.8360197635609676
+iteration 24 | train_likelihood -2.856794044967218 | test_likelihood -2.836019763307046
+iteration 25 | train_likelihood -2.856794044685994 | test_likelihood -2.836019763043139
+iteration 26 | train_likelihood -2.856794044393916 | test_likelihood -2.8360197627687302
+iteration 27 | train_likelihood -2.8567940440904263 | test_likelihood -2.836019762483277
+iteration 28 | train_likelihood -2.856794043774941 | test_likelihood -2.83601976218621
+iteration 29 | train_likelihood -2.85679404344685 | test_likelihood -2.836019761876935
+iteration 30 | train_likelihood -2.856794043105513 | test_likelihood -2.836019761554828
+iteration 31 | train_likelihood -2.8567940427502596 | test_likelihood -2.8360197612192346
+iteration 32 | train_likelihood -2.856794042380388 | test_likelihood -2.8360197608694713
+iteration 33 | train_likelihood -2.8567940419951605 | test_likelihood -2.8360197605048176
+iteration 34 | train_likelihood -2.856794041593807 | test_likelihood -2.8360197601245227
+iteration 35 | train_likelihood -2.8567940411755184 | test_likelihood -2.8360197597277965
+iteration 36 | train_likelihood -2.856794040739447 | test_likelihood -2.8360197593138117
+iteration 37 | train_likelihood -2.8567940402847047 | test_likelihood -2.8360197588817004
+iteration 38 | train_likelihood -2.856794039810359 | test_likelihood -2.8360197584305524
+iteration 39 | train_likelihood -2.856794039315434 | test_likelihood -2.836019757959414
+iteration 40 | train_likelihood -2.8567940387989057 | test_likelihood -2.836019757467283
+iteration 41 | train_likelihood -2.8567940382596984 | test_likelihood -2.8360197569531103
+iteration 42 | train_likelihood -2.856794037696686 | test_likelihood -2.8360197564157934
+iteration 43 | train_likelihood -2.856794037108688 | test_likelihood -2.836019755854177
+iteration 44 | train_likelihood -2.8567940364944624 | test_likelihood -2.836019755267048
+iteration 45 | train_likelihood -2.856794035852709 | test_likelihood -2.836019754653135
+iteration 46 | train_likelihood -2.856794035182065 | test_likelihood -2.836019754011102
+iteration 47 | train_likelihood -2.856794034481097 | test_likelihood -2.8360197533395475
+iteration 48 | train_likelihood -2.8567940337483044 | test_likelihood -2.836019752637003
+iteration 49 | train_likelihood -2.8567940329821093 | test_likelihood -2.8360197519019232
+iteration 50 | train_likelihood -2.8567940321808583 | test_likelihood -2.8360197511326906
+iteration 51 | train_likelihood -2.8567940313428157 | test_likelihood -2.836019750327603
+iteration 52 | train_likelihood -2.856794030466158 | test_likelihood -2.836019749484877
+iteration 53 | train_likelihood -2.8567940295489738 | test_likelihood -2.83601974860264
+iteration 54 | train_likelihood -2.8567940285892566 | test_likelihood -2.836019747678924
+iteration 55 | train_likelihood -2.8567940275848978 | test_likelihood -2.836019746711665
+iteration 56 | train_likelihood -2.8567940265336853 | test_likelihood -2.8360197456986955
+iteration 57 | train_likelihood -2.856794025433298 | test_likelihood -2.8360197446377393
+iteration 58 | train_likelihood -2.856794024281296 | test_likelihood -2.8360197435264065
+iteration 59 | train_likelihood -2.856794023075121 | test_likelihood -2.836019742362188
+iteration 60 | train_likelihood -2.856794021812085 | test_likelihood -2.8360197411424486
+iteration 61 | train_likelihood -2.8567940204893647 | test_likelihood -2.8360197398644216
+iteration 62 | train_likelihood -2.856794019103996 | test_likelihood -2.8360197385252
+iteration 63 | train_likelihood -2.8567940176528674 | test_likelihood -2.8360197371217315
+iteration 64 | train_likelihood -2.85679401613271 | test_likelihood -2.83601973565081
+iteration 65 | train_likelihood -2.8567940145400903 | test_likelihood -2.8360197341090694
+iteration 66 | train_likelihood -2.856794012871402 | test_likelihood -2.836019732492971
+iteration 67 | train_likelihood -2.856794011122858 | test_likelihood -2.8360197307987995
+iteration 68 | train_likelihood -2.8567940092904793 | test_likelihood -2.8360197290226528
+iteration 69 | train_likelihood -2.8567940073700866 | test_likelihood -2.8360197271604286
+iteration 70 | train_likelihood -2.8567940053572887 | test_likelihood -2.8360197252078194
+iteration 71 | train_likelihood -2.856794003247473 | test_likelihood -2.8360197231602973
+iteration 72 | train_likelihood -2.8567940010357904 | test_likelihood -2.8360197210131064
+iteration 73 | train_likelihood -2.856793998717151 | test_likelihood -2.8360197187612486
+iteration 74 | train_likelihood -2.856793996286201 | test_likelihood -2.8360197163994703
+iteration 75 | train_likelihood -2.856793993737316 | test_likelihood -2.836019713922252
+iteration 76 | train_likelihood -2.8567939910645874 | test_likelihood -2.8360197113237913
+iteration 77 | train_likelihood -2.8567939882618014 | test_likelihood -2.8360197085979904
+iteration 78 | train_likelihood -2.856793985322429 | test_likelihood -2.836019705738441
+iteration 79 | train_likelihood -2.856793982239608 | test_likelihood -2.836019702738403
+iteration 80 | train_likelihood -2.856793979006123 | test_likelihood -2.8360196995907936
+iteration 81 | train_likelihood -2.8567939756143876 | test_likelihood -2.836019696288166
+iteration 82 | train_likelihood -2.856793972056429 | test_likelihood -2.836019692822689
+iteration 83 | train_likelihood -2.8567939683238595 | test_likelihood -2.8360196891861285
+iteration 84 | train_likelihood -2.8567939644078626 | test_likelihood -2.836019685369827
+iteration 85 | train_likelihood -2.856793960299165 | test_likelihood -2.8360196813646774
+iteration 86 | train_likelihood -2.8567939559880138 | test_likelihood -2.836019677161102
+iteration 87 | train_likelihood -2.8567939514641507 | test_likelihood -2.8360196727490266
+iteration 88 | train_likelihood -2.8567939467167838 | test_likelihood -2.8360196681178533
+iteration 89 | train_likelihood -2.8567939417345602 | test_likelihood -2.8360196632564314
+iteration 90 | train_likelihood -2.8567939365055355 | test_likelihood -2.83601965815303
+iteration 91 | train_likelihood -2.8567939310171413 | test_likelihood -2.8360196527953034
+iteration 92 | train_likelihood -2.8567939252561487 | test_likelihood -2.836019647170261
+iteration 93 | train_likelihood -2.8567939192086365 | test_likelihood -2.836019641264226
+iteration 94 | train_likelihood -2.8567939128599518 | test_likelihood -2.8360196350628066
+iteration 95 | train_likelihood -2.8567939061946657 | test_likelihood -2.8360196285508477
+iteration 96 | train_likelihood -2.8567938991965356 | test_likelihood -2.836019621712395
+iteration 97 | train_likelihood -2.856793891848458 | test_likelihood -2.8360196145306458
+iteration 98 | train_likelihood -2.8567938841324176 | test_likelihood -2.836019606987905
+iteration 99 | train_likelihood -2.8567938760294402 | test_likelihood -2.8360195990655326
+iteration 100 | train_likelihood -2.856793867519537 | test_likelihood -2.836019590743892
+iteration 101 | train_likelihood -2.856793858581645 | test_likelihood -2.8360195820022924
+iteration 102 | train_likelihood -2.8567938491935685 | test_likelihood -2.8360195728189295
+iteration 103 | train_likelihood -2.8567938393319134 | test_likelihood -2.83601956317082
+iteration 104 | train_likelihood -2.8567938289720156 | test_likelihood -2.836019553033735
+iteration 105 | train_likelihood -2.856793818087872 | test_likelihood -2.8360195423821284
+iteration 106 | train_likelihood -2.8567938066520573 | test_likelihood -2.8360195311890575
+iteration 107 | train_likelihood -2.856793794635644 | test_likelihood -2.8360195194261024
+iteration 108 | train_likelihood -2.8567937820081113 | test_likelihood -2.8360195070632805
+iteration 109 | train_likelihood -2.8567937687372527 | test_likelihood -2.83601949406895
+iteration 110 | train_likelihood -2.8567937547890723 | test_likelihood -2.836019480409711
+iteration 111 | train_likelihood -2.856793740127677 | test_likelihood -2.836019466050304
+iteration 112 | train_likelihood -2.856793724715165 | test_likelihood -2.8360194509534904
+iteration 113 | train_likelihood -2.8567937085114967 | test_likelihood -2.836019435079935
+iteration 114 | train_likelihood -2.856793691474368 | test_likelihood -2.8360194183880765
+iteration 115 | train_likelihood -2.856793673559067 | test_likelihood -2.836019400833988
+iteration 116 | train_likelihood -2.856793654718322 | test_likelihood -2.8360193823712287
+iteration 117 | train_likelihood -2.8567936349021408 | test_likelihood -2.8360193629506854
+iteration 118 | train_likelihood -2.8567936140576378 | test_likelihood -2.8360193425204017
+iteration 119 | train_likelihood -2.8567935921288474 | test_likelihood -2.836019321025395
+iteration 120 | train_likelihood -2.8567935690565216 | test_likelihood -2.8360192984074604
+iteration 121 | train_likelihood -2.8567935447779176 | test_likelihood -2.8360192746049577
+iteration 122 | train_likelihood -2.8567935192265637 | test_likelihood -2.836019249552586
+iteration 123 | train_likelihood -2.8567934923320135 | test_likelihood -2.8360192231811405
+iteration 124 | train_likelihood -2.8567934640195745 | test_likelihood -2.8360191954172413
+iteration 125 | train_likelihood -2.856793434210019 | test_likelihood -2.836019166183059
+iteration 126 | train_likelihood -2.8567934028192714 | test_likelihood -2.8360191353960005
+iteration 127 | train_likelihood -2.856793369758071 | test_likelihood -2.836019102968379
+iteration 128 | train_likelihood -2.8567933349316066 | test_likelihood -2.8360190688070577
+iteration 129 | train_likelihood -2.856793298239119 | test_likelihood -2.836019032813056
+iteration 130 | train_likelihood -2.856793259573475 | test_likelihood -2.836018994881136
+iteration 131 | train_likelihood -2.8567932188207004 | test_likelihood -2.8360189548993398
+iteration 132 | train_likelihood -2.856793175859479 | test_likelihood -2.836018912748497
+iteration 133 | train_likelihood -2.8567931305606002 | test_likelihood -2.836018868301687
+iteration 134 | train_likelihood -2.856793082786365 | test_likelihood -2.8360188214236515
+iteration 135 | train_likelihood -2.8567930323899366 | test_likelihood -2.8360187719701577
+iteration 136 | train_likelihood -2.85679297921463 | test_likelihood -2.836018719787305
+iteration 137 | train_likelihood -2.8567929230931446 | test_likelihood -2.8360186647107644
+iteration 138 | train_likelihood -2.856792863846716 | test_likelihood -2.83601860656495
+iteration 139 | train_likelihood -2.8567928012841928 | test_likelihood -2.836018545162115
+iteration 140 | train_likelihood -2.8567927352010303 | test_likelihood -2.836018480301358
+iteration 141 | train_likelihood -2.8567926653781783 | test_likelihood -2.8360184117675358
+iteration 142 | train_likelihood -2.8567925915808696 | test_likelihood -2.8360183393300704
+iteration 143 | train_likelihood -2.856792513557281 | test_likelihood -2.8360182627416384
+iteration 144 | train_likelihood -2.856792431037066 | test_likelihood -2.836018181736727
+iteration 145 | train_likelihood -2.856792343729735 | test_likelihood -2.836018096030048
+iteration 146 | train_likelihood -2.8567922513228723 | test_likelihood -2.8360180053147817
+iteration 147 | train_likelihood -2.8567921534801632 | test_likelihood -2.8360179092606446
+iteration 148 | train_likelihood -2.8567920498392163 | test_likelihood -2.8360178075117504
+iteration 149 | train_likelihood -2.8567919400091473 | test_likelihood -2.8360176996842394
+iteration 150 | train_likelihood -2.8567918235679084 | test_likelihood -2.8360175853636536
+iteration 151 | train_likelihood -2.856791700059311 | test_likelihood -2.836017464102019
+iteration 152 | train_likelihood -2.8567915689897285 | test_likelihood -2.8360173354146037
+iteration 153 | train_likelihood -2.8567914298244155 | test_likelihood -2.8360171987763083
+iteration 154 | train_likelihood -2.8567912819834054 | test_likelihood -2.8360170536176383
+iteration 155 | train_likelihood -2.856791124836928 | test_likelihood -2.8360168993202084
+iteration 156 | train_likelihood -2.8567909577002903 | test_likelihood -2.8360167352117105
+iteration 157 | train_likelihood -2.8567907798281293 | test_likelihood -2.8360165605602785
+iteration 158 | train_likelihood -2.856790590407966 | test_likelihood -2.836016374568163
+iteration 159 | train_likelihood -2.8567903885529646 | test_likelihood -2.8360161763646197
+iteration 160 | train_likelihood -2.856790173293776 | test_likelihood -2.8360159649979004
+iteration 161 | train_likelihood -2.8567899435693267 | test_likelihood -2.8360157394262204
+iteration 162 | train_likelihood -2.8567896982164216 | test_likelihood -2.8360154985075496
+iteration 163 | train_likelihood -2.856789435957964 | test_likelihood -2.836015240988048
+iteration 164 | train_likelihood -2.856789155389591 | test_likelihood -2.8360149654889493
+iteration 165 | train_likelihood -2.856788854964479 | test_likelihood -2.8360146704916502
+iteration 166 | train_likelihood -2.856788532976043 | test_likelihood -2.836014354320725
+iteration 167 | train_likelihood -2.8567881875381738 | test_likelihood -2.8360140151245314
+iteration 168 | train_likelihood -2.8567878165626355 | test_likelihood -2.836013650853031
+iteration 169 | train_likelihood -2.8567874177331523 | test_likelihood -2.836013259232343
+iteration 170 | train_likelihood -2.856786988475611 | test_likelihood -2.836012837735512
+iteration 171 | train_likelihood -2.856786525923746 | test_likelihood -2.836012383548821
+iteration 172 | train_likelihood -2.8567860268794902 | test_likelihood -2.8360118935328793
+iteration 173 | train_likelihood -2.856785487767069 | test_likelihood -2.836011364177568
+iteration 174 | train_likelihood -2.856784904579694 | test_likelihood -2.8360107915497235
+iteration 175 | train_likelihood -2.856784272817496 | test_likelihood -2.8360101712322154
+iteration 176 | train_likelihood -2.8567835874150376 | test_likelihood -2.8360094982528103
+iteration 177 | train_likelihood -2.856782842656422 | test_likelihood -2.8360087670008536
+iteration 178 | train_likelihood -2.8567820320755444 | test_likelihood -2.83600797112937
+iteration 179 | train_likelihood -2.8567811483385137 | test_likelihood -2.8360071034396723
+iteration 180 | train_likelihood -2.856780183104593 | test_likelihood -2.8360061557448764
+iteration 181 | train_likelihood -2.8567791268611433 | test_likelihood -2.8360051187079174
+iteration 182 | train_likelihood -2.8567779687270014 | test_likelihood -2.8360039816485743
+iteration 183 | train_likelihood -2.8567766962173513 | test_likelihood -2.836002732312712
+iteration 184 | train_likelihood -2.8567752949614302 | test_likelihood -2.8360013565952285
+iteration 185 | train_likelihood -2.8567737483621807 | test_likelihood -2.8359998382060327
+iteration 186 | train_likelihood -2.8567720371841188 | test_likelihood -2.8359981582655727
+iteration 187 | train_likelihood -2.856770139052 | test_likelihood -2.835996294812817
+iteration 188 | train_likelihood -2.856768027838036 | test_likelihood -2.835994222203863
+iteration 189 | train_likelihood -2.856765672909118 | test_likelihood -2.8359919103731563
+iteration 190 | train_likelihood -2.8567630381971747 | test_likelihood -2.8359893239211287
+iteration 191 | train_likelihood -2.856760081044712 | test_likelihood -2.835986420981212
+iteration 192 | train_likelihood -2.856756750762778 | test_likelihood -2.835983151804613
+iteration 193 | train_likelihood -2.856752986818589 | test_likelihood -2.8359794569816517
+iteration 194 | train_likelihood -2.856748716542849 | test_likelihood -2.835975265191721
+iteration 195 | train_likelihood -2.8567438522095103 | test_likelihood -2.8359704903373717
+iteration 196 | train_likelihood -2.8567382872890517 | test_likelihood -2.835965027867291
+iteration 197 | train_likelihood -2.8567318916042224 | test_likelihood -2.8359587500221712
+iteration 198 | train_likelihood -2.8567245050153263 | test_likelihood -2.835951499637485
+iteration 199 | train_likelihood -2.8567159291168753 | test_likelihood -2.8359430819946363
+iteration 200 | train_likelihood -2.8567059162178454 | test_likelihood -2.8359332540062767
+iteration 201 | train_likelihood -2.8566941545718514 | test_likelihood -2.8359217097213247
+iteration 202 | train_likelihood -2.8566802483711853 | test_likelihood -2.835908060691309
+iteration 203 | train_likelihood -2.8566636903408202 | test_likelihood -2.8358918090743996
+iteration 204 | train_likelihood -2.85664382373789 | test_likelihood -2.835872310342087
+iteration 205 | train_likelihood -2.856619788971294 | test_likelihood -2.835848720892213
+iteration 206 | train_likelihood -2.856590447559631 | test_likelihood -2.835819923422033
+iteration 207 | train_likelihood -2.8565542721594843 | test_likelihood -2.8357844190029473
+iteration 208 | train_likelihood -2.856509184911405 | test_likelihood -2.8357401684344326
+iteration 209 | train_likelihood -2.856452315590453 | test_likelihood -2.835684354894191
+iteration 210 | train_likelihood -2.8563796328120747 | test_likelihood -2.8356130220042544
+iteration 211 | train_likelihood -2.856285369941427 | test_likelihood -2.835520510416956
+iteration 212 | train_likelihood -2.8561611112913816 | test_likelihood -2.8353985610025316
+iteration 213 | train_likelihood -2.8559943023081544 | test_likelihood -2.835234852724628
+iteration 214 | train_likelihood -2.855765757743042 | test_likelihood -2.835010557111037
+iteration 215 | train_likelihood -2.8554453804461 | test_likelihood -2.8346961365817194
+iteration 216 | train_likelihood -2.8549846021100946 | test_likelihood -2.8342439256780723
+iteration 217 | train_likelihood -2.854302684843943 | test_likelihood -2.8335746876681926
+iteration 218 | train_likelihood -2.85326137948697 | test_likelihood -2.8325527471782053
+iteration 219 | train_likelihood -2.8516177397522378 | test_likelihood -2.830939700250971
+iteration 220 | train_likelihood -2.8489388074208537 | test_likelihood -2.8283107830281575
+iteration 221 | train_likelihood -2.844466092227725 | test_likelihood -2.8239223457073725
+iteration 222 | train_likelihood -2.8369930292528824 | test_likelihood -2.816593666892428
+iteration 223 | train_likelihood -2.825140329297692 | test_likelihood -2.8049842526245623
+iteration 224 | train_likelihood -2.808906524664407 | test_likelihood -2.789127885693231
+iteration 225 | train_likelihood -2.791805662007507 | test_likelihood -2.7725182755798117
+iteration 226 | train_likelihood -2.7784829203403243 | test_likelihood -2.7596984090316408
+iteration 227 | train_likelihood -2.7692352650588807 | test_likelihood -2.75086296722908
+iteration 228 | train_likelihood -2.761181632171153 | test_likelihood -2.7431025592164717
+iteration 229 | train_likelihood -2.751772583107632 | test_likelihood -2.733883695435745
+iteration 230 | train_likelihood -2.7396178030480813 | test_likelihood -2.7218199047164524
+iteration 231 | train_likelihood -2.7250860942524078 | test_likelihood -2.707257021183424
+iteration 232 | train_likelihood -2.710553077295249 | test_likelihood -2.6925276045534012
+iteration 233 | train_likelihood -2.698483259926439 | test_likelihood -2.680028830712235
+iteration 234 | train_likelihood -2.6895043891243544 | test_likelihood -2.670348653709651
+iteration 235 | train_likelihood -2.6830348535149993 | test_likelihood -2.6629764604502077
+iteration 236 | train_likelihood -2.6784551395875704 | test_likelihood -2.657453095200216
+iteration 237 | train_likelihood -2.6752902200698454 | test_likelihood -2.653453189409437
+iteration 238 | train_likelihood -2.67310006414365 | test_likelihood -2.650610060111437
+iteration 239 | train_likelihood -2.6715147882328663 | test_likelihood -2.6485548955649785
+iteration 240 | train_likelihood -2.670283679546659 | test_likelihood -2.647002685558343
+iteration 241 | train_likelihood -2.6692622955792444 | test_likelihood -2.6457699600837863
+iteration 242 | train_likelihood -2.668374923883582 | test_likelihood -2.644750330678741
+iteration 243 | train_likelihood -2.6675845862170906 | test_likelihood -2.6438857064519654
+iteration 244 | train_likelihood -2.6668755153582904 | test_likelihood -2.643145726112186
+iteration 245 | train_likelihood -2.6662432308090427 | test_likelihood -2.6425148183974896
+iteration 246 | train_likelihood -2.665687977562316 | test_likelihood -2.6419840313333753
+iteration 247 | train_likelihood -2.6652099672917817 | test_likelihood -2.6415458978886455
+iteration 248 | train_likelihood -2.6648065245647428 | test_likelihood -2.641191710693465
+iteration 249 | train_likelihood -2.6644713787000365 | test_likelihood -2.640910830530466
+iteration 250 | train_likelihood -2.664195624907189 | test_likelihood -2.6406913717405076
+iteration 251 | train_likelihood -2.663969344841973 | test_likelihood -2.6405214114447264
+iteration 252 | train_likelihood -2.6637830038315835 | test_likelihood -2.640390043416812
+iteration 253 | train_likelihood -2.6636282472821513 | test_likelihood -2.640287980069482
+iteration 254 | train_likelihood -2.663498138250618 | test_likelihood -2.6402077224969225
+iteration 255 | train_likelihood -2.663387033433083 | test_likelihood -2.6401434554775878
+iteration 256 | train_likelihood -2.6632902632896167 | test_likelihood -2.6400908274747557
+iteration 257 | train_likelihood -2.6632036904669762 | test_likelihood -2.640046729809322
+iteration 258 | train_likelihood -2.6631231608530204 | test_likelihood -2.640009144357041
+iteration 259 | train_likelihood -2.6630439599469877 | test_likelihood -2.6399770823940023
+iteration 260 | train_likelihood -2.6629609092406747 | test_likelihood -2.6399505132658616
+iteration 261 | train_likelihood -2.6628705452280017 | test_likelihood -2.639929841360405
+iteration 262 | train_likelihood -2.662775151167933 | test_likelihood -2.639914215060795
+iteration 263 | train_likelihood -2.6626823120131973 | test_likelihood -2.639899522295453
+iteration 264 | train_likelihood -2.6625972409707273 | test_likelihood -2.6398799106834328
+iteration 265 | train_likelihood -2.662519218677337 | test_likelihood -2.639852520326246
+iteration 266 | train_likelihood -2.6624452269472245 | test_likelihood -2.6398187215931515
+iteration 267 | train_likelihood -2.6623727854773014 | test_likelihood -2.6397814764524106
+iteration 268 | train_likelihood -2.662300317762484 | test_likelihood -2.6397433114279605
+iteration 269 | train_likelihood -2.6622268873378436 | test_likelihood -2.6397059630624726
+iteration 270 | train_likelihood -2.662151993302128 | test_likelihood -2.639670655875661
+iteration 271 | train_likelihood -2.662075438063488 | test_likelihood -2.639638350322023
+iteration 272 | train_likelihood -2.66199722742174 | test_likelihood -2.639609838409584
+iteration 273 | train_likelihood -2.6619174984776763 | test_likelihood -2.639585749569306
+iteration 274 | train_likelihood -2.6618364814186415 | test_likelihood -2.6395665389943055
+iteration 275 | train_likelihood -2.6617544925735017 | test_likelihood -2.639552495327547
+iteration 276 | train_likelihood -2.661671944185108 | test_likelihood -2.6395437707451586
+iteration 277 | train_likelihood -2.6615893519079683 | test_likelihood -2.639540418464133
+iteration 278 | train_likelihood -2.6615073260581665 | test_likelihood -2.6395424213219254
+iteration 279 | train_likelihood -2.6614265424133254 | test_likelihood -2.639549703538028
+iteration 280 | train_likelihood -2.661347697181865 | test_likelihood -2.6395621276052714
+iteration 281 | train_likelihood -2.6612714556703105 | test_likelihood -2.6395794841625393
+iteration 282 | train_likelihood -2.6611984049711417 | test_likelihood -2.6396014835968855
+iteration 283 | train_likelihood -2.66112901870925 | test_likelihood -2.6396277555034926
+iteration 284 | train_likelihood -2.6610636378427865 | test_likelihood -2.6396578581238703
+iteration 285 | train_likelihood -2.6610024670983075 | test_likelihood -2.6396912962382015
+iteration 286 | train_likelihood -2.660945583116561 | test_likelihood -2.63972754377292
+iteration 287 | train_likelihood -2.660892948605188 | test_likelihood -2.639766066917435
+iteration 288 | train_likelihood -2.6608444267900593 | test_likelihood -2.639806344477516
+iteration 289 | train_likelihood -2.660799791657073 | test_likelihood -2.6398478837919477
+iteration 290 | train_likelihood -2.660758731211973 | test_likelihood -2.639890232059002
+iteration 291 | train_likelihood -2.660720843105931 | test_likelihood -2.6399329838793757
+iteration 292 | train_likelihood -2.6606856252828064 | test_likelihood -2.6399757860426356
+iteration 293 | train_likelihood -2.6606524705101435 | test_likelihood -2.640018340034809
+iteration 294 | train_likelihood -2.6606206838933266 | test_likelihood -2.640060401404241
+iteration 295 | train_likelihood -2.6605895524958703 | test_likelihood -2.6401017731593552
+iteration 296 | train_likelihood -2.660558489258471 | test_likelihood -2.6401422889653587
+iteration 297 | train_likelihood -2.6605272258591266 | test_likelihood -2.6401817841942417
+iteration 298 | train_likelihood -2.660495952207216 | test_likelihood -2.6402200620825975
+iteration 299 | train_likelihood -2.660465278975435 | test_likelihood -2.640256874395
+iteration 300 | train_likelihood -2.6604360069484216 | test_likelihood -2.6402919367075923
+iteration 301 | train_likelihood -2.6604088358546787 | test_likelihood -2.6403249792639225
+iteration 302 | train_likelihood -2.6603841738120586 | test_likelihood -2.64035580997523
+iteration 303 | train_likelihood -2.660362107351244 | test_likelihood -2.640384358520261
+iteration 304 | train_likelihood -2.6603424848867667 | test_likelihood -2.640410683551093
+iteration 305 | train_likelihood -2.660325032669846 | test_likelihood -2.6404349458056298
+iteration 306 | train_likelihood -2.6603094476318754 | test_likelihood -2.6404573640231974
+iteration 307 | train_likelihood -2.660295450196803 | test_likelihood -2.640478172101095
+iteration 308 | train_likelihood -2.6602828042840483 | test_likelihood -2.6404975886655966
+iteration 309 | train_likelihood -2.660271318387636 | test_likelihood -2.640515801484615
+iteration 310 | train_likelihood -2.66026083885292 | test_likelihood -2.6405329636214896
+iteration 311 | train_likelihood -2.6602512416173325 | test_likelihood -2.6405491965637493
+iteration 312 | train_likelihood -2.6602424250218983 | test_likelihood -2.6405645962690594
+iteration 313 | train_likelihood -2.660234304325595 | test_likelihood -2.6405792395464993
+iteration 314 | train_likelihood -2.660226807749162 | test_likelihood -2.6405931895124253
+iteration 315 | train_likelihood -2.660219873667803 | test_likelihood -2.6406064997317644
+iteration 316 | train_likelihood -2.660213448601507 | test_likelihood -2.6406192171133966
+iteration 317 | train_likelihood -2.6602074857421036 | test_likelihood -2.6406313838081523
+iteration 318 | train_likelihood -2.6602019438410984 | test_likelihood -2.640643038386062
+iteration 319 | train_likelihood -2.660196786344703 | test_likelihood -2.6406542165310696
+iteration 320 | train_likelihood -2.6601919807036953 | test_likelihood -2.640664951433814
+iteration 321 | train_likelihood -2.6601874978115267 | test_likelihood -2.6406752740086072
+iteration 322 | train_likelihood -2.660183311539873 | test_likelihood -2.640685213017128
+iteration 323 | train_likelihood -2.6601793983503925 | test_likelihood -2.6406947951496487
+iteration 324 | train_likelihood -2.660175736967502 | test_likelihood -2.6407040450929906
+iteration 325 | train_likelihood -2.6601723081007638 | test_likelihood -2.6407129856004468
+iteration 326 | train_likelihood -2.66016909420809 | test_likelihood -2.640721637570344
+iteration 327 | train_likelihood -2.6601660792927637 | test_likelihood -2.6407300201349155
+iteration 328 | train_likelihood -2.6601632487286473 | test_likelihood -2.6407381507585312
+iteration 329 | train_likelihood -2.6601605891089464 | test_likelihood -2.6407460453430773
+iteration 330 | train_likelihood -2.6601580881147404 | test_likelihood -2.640753718337911
+iteration 331 | train_likelihood -2.660155734400131 | test_likelihood -2.640761182851837
+iteration 332 | train_likelihood -2.6601535174914086 | test_likelihood -2.64076845076489
+iteration 333 | train_likelihood -2.6601514276980787 | test_likelihood -2.640775532838058
+iteration 334 | train_likelihood -2.660149456033959 | test_likelihood -2.6407824388194823
+iteration 335 | train_likelihood -2.6601475941468755 | test_likelihood -2.64078917754604
+iteration 336 | train_likelihood -2.660145834255739 | test_likelihood -2.6407957570395055
+iteration 337 | train_likelihood -2.660144169094028 | test_likelihood -2.6408021845967697
+iteration 338 | train_likelihood -2.6601425918588637 | test_likelihood -2.640808466873751
+iteration 339 | train_likelihood -2.660141096165075 | test_likelihood -2.640814609962817
+iteration 340 | train_likelihood -2.66013967600377 | test_likelihood -2.6408206194635895
+iteration 341 | train_likelihood -2.6601383257050917 | test_likelihood -2.6408265005470852
+iteration 342 | train_likelihood -2.660137039904957 | test_likelihood -2.6408322580131243
+iteration 343 | train_likelihood -2.660135813515702 | test_likelihood -2.6408378963409467
+iteration 344 | train_likelihood -2.6601346417006737 | test_likelihood -2.6408434197328976
+iteration 345 | train_likelihood -2.6601335198529172 | test_likelihood -2.6408488321510077
+iteration 346 | train_likelihood -2.6601324435782017 | test_likelihood -2.6408541373461842
+iteration 347 | train_likelihood -2.6601314086826946 | test_likelihood -2.640859338879674
+iteration 348 | train_likelihood -2.6601304111656585 | test_likelihood -2.640864440136401
+iteration 349 | train_likelihood -2.660129447217525 | test_likelihood -2.6408694443297347
+iteration 350 | train_likelihood -2.6601285132236665 | test_likelihood -2.6408743544972997
+iteration 351 | train_likelihood -2.66012760577403 | test_likelihood -2.640879173487551
+iteration 352 | train_likelihood -2.6601267216785995 | test_likelihood -2.640883903937053
+iteration 353 | train_likelihood -2.6601258579883074 | test_likelihood -2.640888548238778
+iteration 354 | train_likelihood -2.660125012020595 | test_likelihood -2.6408931085022638
+iteration 355 | train_likelihood -2.6601241813883036 | test_likelihood -2.6408975865071427
+iteration 356 | train_likelihood -2.6601233640300044 | test_likelihood -2.640901983652357
+iteration 357 | train_likelihood -2.660122558239338 | test_likelihood -2.6409063009043163
+iteration 358 | train_likelihood -2.6601217626904456 | test_likelihood -2.6409105387481007
+iteration 359 | train_likelihood -2.6601209764563296 | test_likelihood -2.6409146971465898
+iteration 360 | train_likelihood -2.660120199017018 | test_likelihood -2.640918775512856
+iteration 361 | train_likelihood -2.660119430254808 | test_likelihood -2.6409227727011313
+iteration 362 | train_likelihood -2.660118670434696 | test_likelihood -2.6409266870210812
+iteration 363 | train_likelihood -2.660117920169272 | test_likelihood -2.6409305162787824
+iteration 364 | train_likelihood -2.6601171803688426 | test_likelihood -2.6409342578458936
+iteration 365 | train_likelihood -2.6601164521789995 | test_likelihood -2.6409379087560403
+iteration 366 | train_likelihood -2.660115736909243 | test_likelihood -2.6409414658247568
+iteration 367 | train_likelihood -2.660115035957255 | test_likelihood -2.640944925786792
+iteration 368 | train_likelihood -2.6601143507337905 | test_likelihood -2.6409482854425415
+iteration 369 | train_likelihood -2.660113682593059 | test_likelihood -2.6409515418041636
+iteration 370 | train_likelihood -2.6601130327726685 | test_likelihood -2.640954692231817
+iteration 371 | train_likelihood -2.660112402346079 | test_likelihood -2.6409577345513435
+iteration 372 | train_likelihood -2.660111792189113 | test_likelihood -2.640960667146586
+iteration 373 | train_likelihood -2.6601112029607017 | test_likelihood -2.6409634890219937
+iteration 374 | train_likelihood -2.6601106350968506 | test_likelihood -2.6409661998338954
+iteration 375 | train_likelihood -2.660110088815926 | test_likelihood -2.640968799891438
+iteration 376 | train_likelihood -2.6601095641328545 | test_likelihood -2.6409712901303863
+iteration 377 | train_likelihood -2.6601090608796403 | test_likelihood -2.6409736720645522
+iteration 378 | train_likelihood -2.6601085787297407 | test_likelihood -2.6409759477205115
+iteration 379 | train_likelihood -2.6601081172241368 | test_likelihood -2.6409781195614874
+iteration 380 | train_likelihood -2.660107675797354 | test_likelihood -2.640980190405963
+iteration 381 | train_likelihood -2.6601072538021557 | test_likelihood -2.6409821633458797
+iteration 382 | train_likelihood -2.660106850532042 | test_likelihood -2.6409840416682977
+iteration 383 | train_likelihood -2.6601064652410717 | test_likelihood -2.640985828783419
+iteration 384 | train_likelihood -2.6601060971608086 | test_likelihood -2.6409875281608337
+iteration 385 | train_likelihood -2.6601057455144113 | test_likelihood -2.6409891432749966
+iteration 386 | train_likelihood -2.660105409528045 | test_likelihood -2.640990677560204
+iteration 387 | train_likelihood -2.6601050884398645 | test_likelihood -2.6409921343747853
+iteration 388 | train_likelihood -2.6601047815068726 | test_likelihood -2.6409935169738374
+iteration 389 | train_likelihood -2.660104488009965 | test_likelihood -2.6409948284895917
+iteration 390 | train_likelihood -2.6601042072574637 | test_likelihood -2.6409960719183734
+iteration 391 | train_likelihood -2.6601039385874174 | test_likelihood -2.6409972501130863
+iteration 392 | train_likelihood -2.6601036813689087 | test_likelihood -2.640998365780194
+iteration 393 | train_likelihood -2.6601034350025836 | test_likelihood -2.6409994214802506
+iteration 394 | train_likelihood -2.660103198920589 | test_likelihood -2.6410004196311307
+iteration 395 | train_likelihood -2.660102972586046 | test_likelihood -2.6410013625132387
+iteration 396 | train_likelihood -2.6601027554922108 | test_likelihood -2.641002252276076
+iteration 397 | train_likelihood -2.6601025471613897 | test_likelihood -2.641003090945677
+iteration 398 | train_likelihood -2.6601023471437095 | test_likelihood -2.641003880432512
+iteration 399 | train_likelihood -2.6601021550157853 | test_likelihood -2.641004622539546
+iteration 400 | train_likelihood -2.660101970379348 | test_likelihood -2.641005318970218
+iteration 401 | train_likelihood -2.6601017928598503 | test_likelihood -2.6410059713361833
+iteration 402 | train_likelihood -2.6601016221050946 | test_likelihood -2.641006581164683
+iteration 403 | train_likelihood -2.6601014577838877 | test_likelihood -2.641007149905479
+iteration 404 | train_likelihood -2.660101299584745 | test_likelihood -2.6410076789373043
+iteration 405 | train_likelihood -2.6601011472146445 | test_likelihood -2.6410081695738095
+iteration 406 | train_likelihood -2.6601010003978436 | test_likelihood -2.641008623069009
+iteration 407 | train_likelihood -2.6601008588747637 | test_likelihood -2.6410090406222304
+iteration 408 | train_likelihood -2.6601007224009305 | test_likelihood -2.641009423382602
+iteration 409 | train_likelihood -2.660100590745984 | test_likelihood -2.6410097724530917
+iteration 410 | train_likelihood -2.6601004636927517 | test_likelihood -2.641010088894147
+iteration 411 | train_likelihood -2.6601003410363786 | test_likelihood -2.6410103737269437
+iteration 412 | train_likelihood -2.660100222583518 | test_likelihood -2.641010627936306
+iteration 413 | train_likelihood -2.660100108151575 | test_likelihood -2.641010852473303
+iteration 414 | train_likelihood -2.660099997568008 | test_likelihood -2.6410110482575733
+iteration 415 | train_likelihood -2.660099890669669 | test_likelihood -2.641011216179395
+iteration 416 | train_likelihood -2.660099787302202 | test_likelihood -2.641011357101535
+iteration 417 | train_likelihood -2.660099687319472 | test_likelihood -2.641011471860893
+iteration 418 | train_likelihood -2.660099590583046 | test_likelihood -2.6410115612699805
+iteration 419 | train_likelihood -2.660099496961699 | test_likelihood -2.6410116261182304
+iteration 420 | train_likelihood -2.6600994063309664 | test_likelihood -2.6410116671731836
+iteration 421 | train_likelihood -2.6600993185727204 | test_likelihood -2.641011685181543
+iteration 422 | train_likelihood -2.6600992335747744 | test_likelihood -2.6410116808701294
+iteration 423 | train_likelihood -2.6600991512305256 | test_likelihood -2.6410116549467406
+iteration 424 | train_likelihood -2.660099071438612 | test_likelihood -2.641011608100929
+iteration 425 | train_likelihood -2.660098994102597 | test_likelihood -2.6410115410047093
+iteration 426 | train_likelihood -2.660098919130679 | test_likelihood -2.641011454313202
+iteration 427 | train_likelihood -2.6600988464354143 | test_likelihood -2.641011348665221
+iteration 428 | train_likelihood -2.6600987759334638 | test_likelihood -2.6410112246838193
+iteration 429 | train_likelihood -2.660098707545355 | test_likelihood -2.6410110829767817
+iteration 430 | train_likelihood -2.660098641195261 | test_likelihood -2.6410109241370883
+iteration 431 | train_likelihood -2.6600985768107948 | test_likelihood -2.641010748743345
+iteration 432 | train_likelihood -2.6600985143228124 | test_likelihood -2.6410105573601834
+iteration 433 | train_likelihood -2.660098453665236 | test_likelihood -2.6410103505386333
+iteration 434 | train_likelihood -2.6600983947748835 | test_likelihood -2.6410101288164785
+iteration 435 | train_likelihood -2.66009833759131 | test_likelihood -2.6410098927185857
+iteration 436 | train_likelihood -2.660098282056661 | test_likelihood -2.6410096427572243
+iteration 437 | train_likelihood -2.6600982281155336 | test_likelihood -2.641009379432363
+iteration 438 | train_likelihood -2.6600981757148463 | test_likelihood -2.641009103231957
+iteration 439 | train_likelihood -2.66009812480372 | test_likelihood -2.64100881463222
+iteration 440 | train_likelihood -2.66009807533336 | test_likelihood -2.641008514097889
+iteration 441 | train_likelihood -2.66009802725695 | test_likelihood -2.641008202082472
+iteration 442 | train_likelihood -2.660097980529554 | test_likelihood -2.6410078790284954
+iteration 443 | train_likelihood -2.660097935108019 | test_likelihood -2.6410075453677364
+iteration 444 | train_likelihood -2.6600978909508863 | test_likelihood -2.6410072015214494
+iteration 445 | train_likelihood -2.660097848018311 | test_likelihood -2.6410068479005884
+iteration 446 | train_likelihood -2.6600978062719807 | test_likelihood -2.641006484906019
+iteration 447 | train_likelihood -2.6600977656750384 | test_likelihood -2.6410061129287254
+iteration 448 | train_likelihood -2.6600977261920202 | test_likelihood -2.6410057323500165
+iteration 449 | train_likelihood -2.6600976877887836 | test_likelihood -2.641005343541719
+iteration 450 | train_likelihood -2.660097650432448 | test_likelihood -2.6410049468663717
+iteration 451 | train_likelihood -2.660097614091336 | test_likelihood -2.641004542677415
+iteration 452 | train_likelihood -2.660097578734915 | test_likelihood -2.6410041313193715
+iteration 453 | train_likelihood -2.660097544333753 | test_likelihood -2.6410037131280295
+iteration 454 | train_likelihood -2.6600975108594582 | test_likelihood -2.641003288430616
+iteration 455 | train_likelihood -2.6600974782846425 | test_likelihood -2.6410028575459696
+iteration 456 | train_likelihood -2.660097446582872 | test_likelihood -2.641002420784712
+iteration 457 | train_likelihood -2.660097415728626 | test_likelihood -2.6410019784494105
+iteration 458 | train_likelihood -2.6600973856972594 | test_likelihood -2.6410015308347434
+iteration 459 | train_likelihood -2.6600973564649633 | test_likelihood -2.641001078227656
+iteration 460 | train_likelihood -2.66009732800873 | test_likelihood -2.641000620907521
+iteration 461 | train_likelihood -2.660097300306321 | test_likelihood -2.6410001591462895
+iteration 462 | train_likelihood -2.6600972733362336 | test_likelihood -2.640999693208642
+iteration 463 | train_likelihood -2.6600972470776716 | test_likelihood -2.640999223352138
+iteration 464 | train_likelihood -2.6600972215105148 | test_likelihood -2.640998749827361
+iteration 465 | train_likelihood -2.6600971966152946 | test_likelihood -2.6409982728780603
+iteration 466 | train_likelihood -2.6600971723731655 | test_likelihood -2.640997792741293
+iteration 467 | train_likelihood -2.660097148765884 | test_likelihood -2.6409973096475636
+iteration 468 | train_likelihood -2.6600971257757804 | test_likelihood -2.6409968238209545
+iteration 469 | train_likelihood -2.6600971033857403 | test_likelihood -2.640996335479265
+iteration 470 | train_likelihood -2.6600970815791825 | test_likelihood -2.640995844834141
+iteration 471 | train_likelihood -2.66009706034004 | test_likelihood -2.6409953520912017
+iteration 472 | train_likelihood -2.660097039652736 | test_likelihood -2.6409948574501687
+iteration 473 | train_likelihood -2.6600970195021723 | test_likelihood -2.6409943611049895
+iteration 474 | train_likelihood -2.6600969998737067 | test_likelihood -2.640993863243962
+iteration 475 | train_likelihood -2.66009698075314 | test_likelihood -2.6409933640498506
+iteration 476 | train_likelihood -2.660096962126697 | test_likelihood -2.640992863700011
+iteration 477 | train_likelihood -2.660096943981014 | test_likelihood -2.6409923623664997
+iteration 478 | train_likelihood -2.6600969263031224 | test_likelihood -2.640991860216194
+iteration 479 | train_likelihood -2.6600969090804347 | test_likelihood -2.6409913574109014
+iteration 480 | train_likelihood -2.660096892300733 | test_likelihood -2.6409908541074727
+iteration 481 | train_likelihood -2.660096875952157 | test_likelihood -2.6409903504579075
+iteration 482 | train_likelihood -2.660096860023187 | test_likelihood -2.6409898466094637
+iteration 483 | train_likelihood -2.6600968445026387 | test_likelihood -2.640989342704762
+iteration 484 | train_likelihood -2.6600968293796474 | test_likelihood -2.640988838881888
+iteration 485 | train_likelihood -2.660096814643658 | test_likelihood -2.640988335274496
+iteration 486 | train_likelihood -2.660096800284419 | test_likelihood -2.640987832011905
+iteration 487 | train_likelihood -2.660096786291966 | test_likelihood -2.6409873292192017
+iteration 488 | train_likelihood -2.660096772656618 | test_likelihood -2.640986827017333
+iteration 489 | train_likelihood -2.660096759368965 | test_likelihood -2.6409863255232007
+iteration 490 | train_likelihood -2.6600967464198604 | test_likelihood -2.640985824849758
+iteration 491 | train_likelihood -2.660096733800414 | test_likelihood -2.640985325106095
+iteration 492 | train_likelihood -2.6600967215019815 | test_likelihood -2.6409848263975357
+iteration 493 | train_likelihood -2.6600967095161585 | test_likelihood -2.6409843288257178
+iteration 494 | train_likelihood -2.660096697834773 | test_likelihood -2.640983832488689
+iteration 495 | train_likelihood -2.660096686449876 | test_likelihood -2.6409833374809817
+iteration 496 | train_likelihood -2.660096675353739 | test_likelihood -2.640982843893703
+iteration 497 | train_likelihood -2.6600966645388437 | test_likelihood -2.6409823518146167
+iteration 498 | train_likelihood -2.660096653997876 | test_likelihood -2.6409818613282203
+iteration 499 | train_likelihood -2.660096643723724 | test_likelihood -2.6409813725158253
+iteration 500 | train_likelihood -2.6600966337094647 | test_likelihood -2.640980885455636
+iteration 501 | train_likelihood -2.6600966239483648 | test_likelihood -2.6409804002228263
+iteration 502 | train_likelihood -2.6600966144338716 | test_likelihood -2.640979916889609
+iteration 503 | train_likelihood -2.660096605159611 | test_likelihood -2.640979435525316
+iteration 504 | train_likelihood -2.6600965961193763 | test_likelihood -2.640978956196466
+iteration 505 | train_likelihood -2.6600965873071307 | test_likelihood -2.640978478966836
+iteration 506 | train_likelihood -2.6600965787169986 | test_likelihood -2.6409780038975295
+iteration 507 | train_likelihood -2.660096570343259 | test_likelihood -2.6409775310470476
+iteration 508 | train_likelihood -2.660096562180345 | test_likelihood -2.6409770604713505
+iteration 509 | train_likelihood -2.6600965542228376 | test_likelihood -2.640976592223927
+iteration 510 | train_likelihood -2.6600965464654616 | test_likelihood -2.6409761263558567
+iteration 511 | train_likelihood -2.6600965389030824 | test_likelihood -2.6409756629158734
+iteration 512 | train_likelihood -2.6600965315306997 | test_likelihood -2.6409752019504245
+iteration 513 | train_likelihood -2.6600965243434462 | test_likelihood -2.640974743503734
+iteration 514 | train_likelihood -2.660096517336583 | test_likelihood -2.6409742876178606
+iteration 515 | train_likelihood -2.6600965105054963 | test_likelihood -2.640973834332754
+iteration 516 | train_likelihood -2.660096503845693 | test_likelihood -2.640973383686314
+iteration 517 | train_likelihood -2.6600964973527987 | test_likelihood -2.640972935714444
+iteration 518 | train_likelihood -2.660096491022553 | test_likelihood -2.6409724904511065
+iteration 519 | train_likelihood -2.6600964848508086 | test_likelihood -2.6409720479283765
+iteration 520 | train_likelihood -2.660096478833525 | test_likelihood -2.640971608176492
+iteration 521 | train_likelihood -2.660096472966768 | test_likelihood -2.640971171223908
+iteration 522 | train_likelihood -2.660096467246706 | test_likelihood -2.640970737097343
+iteration 523 | train_likelihood -2.6600964616696077 | test_likelihood -2.640970305821831
+iteration 524 | train_likelihood -2.66009645623184 | test_likelihood -2.640969877420767
+iteration 525 | train_likelihood -2.6600964509298617 | test_likelihood -2.640969451915955
+iteration 526 | train_likelihood -2.6600964457602263 | test_likelihood -2.640969029327655
+iteration 527 | train_likelihood -2.6600964407195753 | test_likelihood -2.6409686096746254
+iteration 528 | train_likelihood -2.660096435804637 | test_likelihood -2.640968192974169
+iteration 529 | train_likelihood -2.660096431012226 | test_likelihood -2.640967779242174
+iteration 530 | train_likelihood -2.6600964263392393 | test_likelihood -2.640967368493158
+iteration 531 | train_likelihood -2.660096421782653 | test_likelihood -2.6409669607403066
+iteration 532 | train_likelihood -2.6600964173395214 | test_likelihood -2.640966555995517
+iteration 533 | train_likelihood -2.6600964130069773 | test_likelihood -2.640966154269434
+iteration 534 | train_likelihood -2.6600964087822248 | test_likelihood -2.64096575557149
+iteration 535 | train_likelihood -2.660096404662541 | test_likelihood -2.640965359909941
+iteration 536 | train_likelihood -2.660096400645273 | test_likelihood -2.6409649672919056
+iteration 537 | train_likelihood -2.660096396727838 | test_likelihood -2.640964577723399
+iteration 538 | train_likelihood -2.6600963929077173 | test_likelihood -2.640964191209369
+iteration 539 | train_likelihood -2.660096389182458 | test_likelihood -2.6409638077537285
+iteration 540 | train_likelihood -2.660096385549671 | test_likelihood -2.64096342735939
+iteration 541 | train_likelihood -2.660096382007027 | test_likelihood -2.640963050028299
+iteration 542 | train_likelihood -2.660096378552257 | test_likelihood -2.640962675761464
+iteration 543 | train_likelihood -2.660096375183151 | test_likelihood -2.640962304558989
+iteration 544 | train_likelihood -2.6600963718975557 | test_likelihood -2.6409619364201027
+iteration 545 | train_likelihood -2.660096368693371 | test_likelihood -2.6409615713431887
+iteration 546 | train_likelihood -2.660096365568554 | test_likelihood -2.640961209325814
+iteration 547 | train_likelihood -2.6600963625211103 | test_likelihood -2.6409608503647584
+iteration 548 | train_likelihood -2.6600963595490996 | test_likelihood -2.64096049445604
+iteration 549 | train_likelihood -2.660096356650629 | test_likelihood -2.6409601415949426
+iteration 550 | train_likelihood -2.6600963538238545 | test_likelihood -2.640959791776043
+iteration 551 | train_likelihood -2.6600963510669806 | test_likelihood -2.640959444993236
+iteration 552 | train_likelihood -2.660096348378256 | test_likelihood -2.6409591012397566
+iteration 553 | train_likelihood -2.6600963457559743 | test_likelihood -2.64095876050821
+iteration 554 | train_likelihood -2.6600963431984734 | test_likelihood -2.6409584227905887
+iteration 555 | train_likelihood -2.6600963407041323 | test_likelihood -2.6409580880782997
+iteration 556 | train_likelihood -2.6600963382713725 | test_likelihood -2.640957756362185
+iteration 557 | train_likelihood -2.6600963358986545 | test_likelihood -2.640957427632547
+iteration 558 | train_likelihood -2.6600963335844785 | test_likelihood -2.640957101879162
+iteration 559 | train_likelihood -2.6600963313273835 | test_likelihood -2.64095677909131
+iteration 560 | train_likelihood -2.660096329125944 | test_likelihood -2.6409564592577897
+iteration 561 | train_likelihood -2.660096326978772 | test_likelihood -2.6409561423669374
+iteration 562 | train_likelihood -2.6600963248845146 | test_likelihood -2.64095582840665
+iteration 563 | train_likelihood -2.660096322841852 | test_likelihood -2.6409555173644015
+iteration 564 | train_likelihood -2.660096320849499 | test_likelihood -2.640955209227259
+iteration 565 | train_likelihood -2.6600963189062043 | test_likelihood -2.640954903981905
+iteration 566 | train_likelihood -2.6600963170107446 | test_likelihood -2.640954601614651
+iteration 567 | train_likelihood -2.66009631516193 | test_likelihood -2.6409543021114543
+iteration 568 | train_likelihood -2.6600963133586 | test_likelihood -2.6409540054579366
+iteration 569 | train_likelihood -2.6600963115996255 | test_likelihood -2.640953711639398
+iteration 570 | train_likelihood -2.660096309883902 | test_likelihood -2.6409534206408325
+iteration 571 | train_likelihood -2.6600963082103553 | test_likelihood -2.640953132446942
+iteration 572 | train_likelihood -2.6600963065779384 | test_likelihood -2.6409528470421537
+iteration 573 | train_likelihood -2.660096304985631 | test_likelihood -2.6409525644106315
+iteration 574 | train_likelihood -2.6600963034324367 | test_likelihood -2.640952284536291
+iteration 575 | train_likelihood -2.660096301917385 | test_likelihood -2.640952007402811
+iteration 576 | train_likelihood -2.6600963004395317 | test_likelihood -2.6409517329936505
+iteration 577 | train_likelihood -2.660096298997954 | test_likelihood -2.6409514612920555
+iteration 578 | train_likelihood -2.660096297591752 | test_likelihood -2.640951192281076
+iteration 579 | train_likelihood -2.6600962962200505 | test_likelihood -2.6409509259435757
+iteration 580 | train_likelihood -2.660096294881995 | test_likelihood -2.640950662262244
+iteration 581 | train_likelihood -2.660096293576754 | test_likelihood -2.6409504012196057
+iteration 582 | train_likelihood -2.6600962923035136 | test_likelihood -2.640950142798034
+iteration 583 | train_likelihood -2.660096291061484 | test_likelihood -2.6409498869797607
+iteration 584 | train_likelihood -2.660096289849892 | test_likelihood -2.640949633746885
+iteration 585 | train_likelihood -2.660096288667987 | test_likelihood -2.640949383081383
+iteration 586 | train_likelihood -2.660096287515034 | test_likelihood -2.64094913496512
+iteration 587 | train_likelihood -2.660096286390319 | test_likelihood -2.6409488893798563
+iteration 588 | train_likelihood -2.6600962852931436 | test_likelihood -2.640948646307259
+iteration 589 | train_likelihood -2.66009628422283 | test_likelihood -2.64094840572891
+iteration 590 | train_likelihood -2.660096283178713 | test_likelihood -2.640948167626312
+iteration 591 | train_likelihood -2.6600962821601484 | test_likelihood -2.6409479319808997
+iteration 592 | train_likelihood -2.6600962811665045 | test_likelihood -2.6409476987740472
+iteration 593 | train_likelihood -2.660096280197169 | test_likelihood -2.640947467987074
+iteration 594 | train_likelihood -2.6600962792515404 | test_likelihood -2.640947239601255
+iteration 595 | train_likelihood -2.660096278329037 | test_likelihood -2.640947013597822
+iteration 596 | train_likelihood -2.660096277429088 | test_likelihood -2.64094678995798
+iteration 597 | train_likelihood -2.660096276551138 | test_likelihood -2.6409465686629043
+iteration 598 | train_likelihood -2.660096275694646 | test_likelihood -2.640946349693752
+iteration 599 | train_likelihood -2.6600962748590837 | test_likelihood -2.6409461330316693
+[2.28611974e-044 3.79152813e-003 2.30284485e-002 1.06168901e-001
+ 4.32948599e-018 8.57553520e-003 4.56802116e-002 2.34379170e-001
+ 9.88460041e-030 9.92632902e-004 1.68652113e-002 8.54877183e-002
+ 3.21902411e-002 4.44651018e-003 1.98344985e-014 1.80441089e-002
+ 6.00015425e-004 7.38845521e-002 1.09811041e-001 1.59833923e-001
+ 5.59886277e-003 1.33467822e-002 2.72732997e-003 1.75598940e-237
+ 5.40378677e-002 5.09407555e-004 5.21381559e-019]
+[2.08965355e-001 1.38696296e-166 2.36683654e-025 8.51588752e-049
+ 7.87395597e-002 6.31797127e-173 8.79007063e-004 5.34509076e-004
+ 1.30996382e-001 1.36439192e-222 6.50975006e-022 1.75260989e-034
+ 2.08557877e-014 3.13907741e-043 1.42122489e-001 1.46120140e-003
+ 1.80139282e-199 3.88736999e-039 7.73517800e-022 1.15983582e-024
+ 6.84446502e-002 0.00000000e+000 5.56110298e-199 1.75820488e-139
+ 6.04503686e-089 2.69464093e-273 3.67856846e-001]
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hoopen train_4_states.pdf[1m [0m[0m [?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hoopen te
+[Jtest.pdf           test_4_states.pdf  textA.txt          textB.txtM[0m[23m[24m[35Copen te[Ks
+[JM[43Ct_4_states.pdf[1m [0m[0m [?2004l
+[J[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hggre g  oopen es mission_vi  4_states_a.pdf[1m [0m[0m . [?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hopen emission_4_states_a.pdf  f[1C[1C[1C[1C[1C.pdf n.pdf[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hopen emission_4_states_n.pdfa[4C [29Dls                          [26Dopen test_4_states.pdf[16Drain_4_states.pdf[23Dls                     [21Dpython3 hmm.py[14Dexit          [10D[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hlls[?2004l
+emission_4_states_a.pdf			log_with_first				screenlog.correct			state2.pdf				textB.txt
+emission_4_states_n.pdf			plot.py					screenlog_last				test.pdf				train.pdf
+emission_n.pdf				proj1_666.pdf				screenlog_no_length_normalization	test_4_states.pdf			train_4_states.pdf
+hmm.py					screenlog.0				state1.pdf				textA.txt
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hsscreen -ls[?2004l
+There is a screen on:
+	53584.hmm_train	(Attached)
+1 Socket in /var/folders/w0/nycvkw893djcqzps9r83ltl40000gn/T/.screen.
+
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                            [0m[23m[24m[Jlitianjian@lis-macbook-pro proj1 % [K[?2004hs [?2004l
