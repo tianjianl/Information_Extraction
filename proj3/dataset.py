@@ -6,6 +6,7 @@ import pandas as pd
 from torch.utils.data import Dataset
 
 class AsrDataset(Dataset):
+
     def __init__(self, scr_file, feature_type='discrete', feature_file=None,
                  feature_label_file=None,
                  wav_scp=None, wav_dir=None):
@@ -25,9 +26,17 @@ class AsrDataset(Dataset):
         
         # === write your code here ===
     
-        self.letters = list(string.ascii_lowercase) + [self.silence, self.blank]
+        self.letters = list(string.ascii_lowercase) + [' ', self.silence, self.blank] 
+        self.letters.remove('k')
+        self.letters.remove('q')
+        self.letters.remove('z')
+        print(f"letter list = {self.letters}")
+
         self.letter2idx = {letter: idx for idx, letter in enumerate(self.letters)}
         self.idx2letter = {idx: letter for idx, letter in enumerate(self.letters)}
+        self.blank_idx = self.letter2idx[self.blank]
+        self.silence_idx = self.letter2idx[self.silence]
+
         self.words = {}
 
         print(f"silence index = {self.letter2idx[self.silence]}")
@@ -74,7 +83,11 @@ class AsrDataset(Dataset):
         # === write your code here === 
         spelling_of_word = self.script[idx]
         spelling_of_word = [self.letter2idx[self.silence]] + [self.letter2idx[c] for c in spelling_of_word] + [self.letter2idx[self.silence]]
-        
+        # add ' ' after each item in spelling_of_word
+        spelling_of_word = [item for sublist in [[i, self.letter2idx[' ']] for i in spelling_of_word] for item in sublist]
+        # remove the last ' '
+        spelling_of_word.pop()
+
         if self.script[idx] not in self.words:
             self.words[self.script[idx]] = spelling_of_word
     

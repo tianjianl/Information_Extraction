@@ -46,8 +46,6 @@ def train(train_dataloader, model, ctc_loss, optimizer):
     start_time = time.time()
 
     for idx, data in enumerate(train_dataloader):
-        
-
         padded_word_spellings = data["padded_word_spellings"]
         padded_features = data["padded_features"]
         
@@ -66,9 +64,12 @@ def train(train_dataloader, model, ctc_loss, optimizer):
 
     end_time = time.time()
     print(f"Training time: {end_time - start_time}s")
-    
-def decode(test_dataloader, model, idx2letter, method='greedy', words=None):
+
+
+def decode(test_dataloader, model, idx2letter, blank_idx, prev_best, method='greedy', words=None):
     # === write your code here ===
+    print(f"total number of test samples: {len(test_dataloader.dataset)}")
+    print(f"total number of words: {len(words)}")
     model.eval()
     preds = []
     acts = []
@@ -94,7 +95,7 @@ def decode(test_dataloader, model, idx2letter, method='greedy', words=None):
         elif method == 'ctc':
         # compute ctc loss for every padded word spelling 
         # and find the one with the lowest loss   
-            ctc_loss = nn.CTCLoss(blank=27)
+            ctc_loss = nn.CTCLoss(blank=blank_idx)
             lowest_loss = float('inf')
             best_pred = ''
             for word in words:
@@ -107,13 +108,17 @@ def decode(test_dataloader, model, idx2letter, method='greedy', words=None):
                     lowest_loss = loss
                     best_pred = word
             preds.append(best_pred)
-            acts.append("".join([idx2letter[idx.item()] for idx in batch["padded_word_spellings"][0]]).replace('<sil>', ''))
+            acts.append("".join([idx2letter[idx.item()] for idx in batch["padded_word_spellings"][0]]).replace('<sil>', '').replace(' ', ''))
 
     print(f"prediction {preds[0:10]}")
     print(f"groundtruth {acts[0:10]}")
     acc = sum([1 if pred == act else 0 for pred, act in zip(preds, acts)]) / len(preds)
-    print(f"accuracy: {acc}")
-    return preds
+    print(f"accuracy: {acc}, prev_best {prev_best}")
+    if acc > prev_best:
+        prev_best = acc
+        torch.save(model.state_dict(), f"model_{method}_best.pth")
+        print(f"saved model with accuracy {acc}")
+    return prev_best, preds
 
 def compute_accuracy(test_dataloader, preds, idx2letter):
     # === write your code here ===
@@ -138,29 +143,41 @@ def main(args):
                           feature_file='clsp.devlbls', feature_label_file='clsp.lblnames', wav_scp='clsp.devwav', wav_dir='waveforms')   
 
     idx2letter = training_set.idx2letter
-    
-    train_dataloader = DataLoader(training_set, batch_size=int(args[1]), shuffle=True, collate_fn=collate_fn)
+
+    #split training set into training and validation set
+    train_set, val_set = torch.utils.data.random_split(training_set, [748, 50])
+
+
+    train_dataloader = DataLoader(train_set, batch_size=int(args[1]), shuffle=True, collate_fn=collate_fn)
+    val_dataloader = DataLoader(val_set, batch_size=1, shuffle=False, collate_fn=collate_fn)    
     test_dataloader =  DataLoader(test_set, batch_size=1, shuffle=False, collate_fn=collate_fn)
 
-    model = LSTM_ASR(feature_type=args[4])
+    model = LSTM_ASR(feature_type=args[4], output_size=len(training_set.letters))
 
     # your can simply import ctc_loss from torch.nn
-    loss_function = nn.CTCLoss(blank=27)
+    loss_function = nn.CTCLoss(blank=training_set.blank_idx)
 
     # optimizer is provided
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-3)
 
     # Training
     num_epochs = int(args[2])  
+    prev_best = 0
     for epoch in range(num_epochs):
         print(f"Epoch {epoch}")
         train(train_dataloader, model, loss_function, optimizer)
-        preds = decode(test_dataloader, model, idx2letter, method=args[3], words=training_set.words)
+        prev_best, _ = decode(val_dataloader, model, idx2letter, training_set.blank_idx, prev_best, method=args[3], words=training_set.words)
         #compute_accuracy(test_dataloader, preds, idx2letter)
-    
-    # Testing (totally by yourself)
-    preds = decode(test_dataloader, model, idx2letter)
 
+    # Testing (totally by yourself)
+    # preds = decode(test_dataloader, model, idx2letter)
+    model.load_state_dict(torch.load(f"model_{args[3]}_best.pth"))
+    _, preds = decode(test_dataloader, model, idx2letter, training_set.blank_idx, prev_best, method=args[3], words=training_set.words)
+    
+    with open('predictions_{args[3]}_{args[4]}.txt', 'a+') as f:
+        for pred in preds:
+            f.write(pred + '\n')
+    
     # Evaluate (totally by yourself)
     # compute_accuracy(test_dataloader, preds, idx2letter)
 
